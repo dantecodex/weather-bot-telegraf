@@ -11,7 +11,6 @@ bot.start = ((ctx) =>
 )
 
 bot.on(message('text'), (ctx) => {
-    console.log(ctx.update);
     const cityName = ctx.text;
     if (typeof (cityName) === 'string')
         axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${process.env.WEATHER_API}`)
