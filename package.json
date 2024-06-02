@@ -1,0 +1,29 @@
+{
+  "name": "telegram-weather-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for waeather info",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "weather",
+    "telegram",
+    "bot",
+    "live",
+    "info"
+  ],
+  "author": "Anshul Rajput",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
